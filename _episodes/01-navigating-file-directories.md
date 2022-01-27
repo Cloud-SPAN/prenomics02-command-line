@@ -301,12 +301,6 @@ The first uses the absolute path, giving the full address from the home director
 second uses a relative path, giving only the address from the working directory. A full
 path always starts with a `/`. A relative path does not.
 
-A relative path is like getting directions from someone on the street. They tell you to
-"go right at the stop sign, and then turn left on Main Street". That works great if
-you're standing there together, but not so well if you're trying to tell someone how to
-get there from another country. A full path is like GPS coordinates. It tells you exactly
-where something is no matter where you are right now.
-
 You can usually use either a full path or a relative path depending on what is most convenient.
 If we are in the home directory, it is more convenient to enter the full path.
 If we are in the working directory, it is more convenient to enter the relative path
