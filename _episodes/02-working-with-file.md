@@ -318,39 +318,7 @@ A!@B!BBB@ABAB#########!!!!!!!######
 ~~~
 {: .output}
 
-
-## Details on the FASTQ format
-
-Although it looks complicated (and it is), it's easy to understand the
-[fastq](https://en.wikipedia.org/wiki/FASTQ_format) format with a little decoding. Some rules about the format
-include...
-
-|Line|Description|
-|----|-----------|
-|1|Always begins with '@' and then information about the read|
-|2|The actual DNA sequence|
-|3|Always begins with a '+' and sometimes the same info in line 1|
-|4|Has a string of characters which represent the quality scores; must have same number of characters as line 2|
-
-We can view the first complete read in one of the files in our dataset by using `head` to look at
-the first four lines.
-
-~~~
-$ head -n 4 SRR098026.fastq
-~~~
-{: .bash}
-
-~~~
-@SRR098026.1 HWUSI-EAS1599_1:2:1:0:968 length=35
-NNNNNNNNNNNNNNNNCNNNNNNNNNNNNNNNNNN
-+SRR098026.1 HWUSI-EAS1599_1:2:1:0:968 length=35
-!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!
-~~~
-{: .output}
-
-All but one of the nucleotides in this read are unknown (`N`). This is a pretty bad read!
-
-Line 4 shows the quality for each nucleotide in the read. We will learn more about how to interpret the quality score in tomorrow's lesson. For now, just know that the FASTQ format has four lines per read.
+These outputs might look a bit strange to you. You don't need to worry what they mean. You will learn more about how to interpret these outputs on [day three](https://cloud-span.github.io/genomics04-data-preparation-organisation/04-quality-control/index.html) of the [Cloud-SPAN Genomics course](https://cloud-span.github.io/genomics01-intro/).
 
 ## Creating, moving, copying, and removing
 
