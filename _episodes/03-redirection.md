@@ -70,8 +70,14 @@ $ grep NNNNNNNNNN SRR098026.fastq
 This command returns a lot of output to the terminal. Every single line in the SRR098026
 file that contains at least 10 consecutive Ns is printed to the terminal, regardless of how long or short the file is.
 We may be interested not only in the actual sequence which contains this string, but
-in the name (or identifier) of that sequence. We discussed in a previous lesson
-that the identifier line immediately precedes the nucleotide sequence for each read
+in the name (or identifier) of that sequence. Think back to the FASTQ format we discussed previously - if you need a reminder, you can click to reveal one below.
+
+>
+> > ![](../fig/fasta_file_format_l2.png){:width="600px"}
+> {: .solution}
+{: .challenge}
+
+The identifier line immediately precedes the nucleotide sequence for each read
 in a FASTQ file. We may also want to inspect the quality scores associated with
 each of these reads. To get all of this information, we will return the line
 immediately before each match and the two lines immediately after each match.
