@@ -179,8 +179,8 @@ $ cat SRR098026.fastq
 This will print out all of the contents of the `SRR098026.fastq` to the screen.
 
 > ## Reminder
-> The contents might look a bit confusing. As these are `.fastq` files, they use the FASTQ format we discussed in lesson one. Here is a reminder to keep in mind as we continue to examine these files:
-> ![](../fig/fasta_file_format_l2.png)
+> The contents might look a bit confusing. As these are `.fastq` files, they use the FASTQ format we have discussed previously. Here is a reminder to keep in mind as we continue to examine these files:
+> ![](../fig/fasta_file_format_l2.png){:width="600px"}
 {: .callout}
 
 
