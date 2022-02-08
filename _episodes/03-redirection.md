@@ -78,9 +78,7 @@ in the name (or identifier) of that sequence. Think back to the FASTQ format we 
 > {: .solution}
 {: .challenge}
 
-The identifier line immediately precedes the nucleotide sequence for each read
-in a FASTQ file. We may also want to inspect the quality scores associated with
-each of these reads. To get all of this information, we will return the line
+To get all of the information about this read, we will return the line
 immediately before each match and the two lines immediately after each match.
 
 We can use the `-B` argument for grep to return a specific number of lines before
