@@ -178,6 +178,12 @@ $ cat SRR098026.fastq
 
 This will print out all of the contents of the `SRR098026.fastq` to the screen.
 
+> ## Reminder
+> The contents might look a bit confusing. As these are `.fastq` files, they use the FASTQ format we discussed in lesson one. Here is a reminder to keep in mind as we continue to examine these files:
+> ![](../fig/fasta_file_format_l2.png)
+{: .callout}
+
+
 
 > ## Exercise
 >
@@ -318,7 +324,7 @@ A!@B!BBB@ABAB#########!!!!!!!######
 ~~~
 {: .output}
 
-These outputs might look a bit strange to you. You don't need to worry what they mean. You will learn more about how to interpret these outputs on [day three](https://cloud-span.github.io/genomics04-data-preparation-organisation/04-quality-control/index.html) of the [Cloud-SPAN Genomics course](https://cloud-span.github.io/genomics01-intro/).
+You will learn more about how to interpret these outputs on [day three](https://cloud-span.github.io/genomics04-data-preparation-organisation/04-quality-control/index.html) of the [Cloud-SPAN Genomics course](https://cloud-span.github.io/genomics01-intro/).
 
 ## Creating, moving, copying, and removing
 
