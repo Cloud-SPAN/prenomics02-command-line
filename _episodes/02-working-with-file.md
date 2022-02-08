@@ -445,3 +445,6 @@ This will delete not only the directory, but all files within the directory.
 > > {: .output}
 > {: .solution}
 {: .challenge}
+
+Here is what your file structure should look like at the end of this episode:
+![A file hierarchy tree](../fig/prenomics02-ep2.png){:width="500px"}

@@ -429,3 +429,6 @@ None of the command line programs we've been learning
 do anything all that impressive on their own, but when you start chaining
 them together, you can do some really powerful things very
 efficiently.
+
+Here is what your file structure should look like at the end of this episode:
+![A file hierarchy tree](../fig/prenomics02-ep3.png){:width="500px"}

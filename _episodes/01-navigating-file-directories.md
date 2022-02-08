@@ -52,6 +52,9 @@ We've also learned how to use `cd` to change locations and `ls` to list the cont
 of a directory. Now we're going to learn some additional commands for moving around
 within our file system.
 
+Here's a reminder of what our file structure looks like as a hierarchy tree:
+![A file hierarchy tree](../fig/blank_instance_file_tree.png){:width="400px"}
+
 Use the commands we've learned so far to navigate to the `shell_data/untrimmed_fastq` directory:
 
 ~~~
