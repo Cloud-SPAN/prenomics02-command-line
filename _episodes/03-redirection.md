@@ -73,6 +73,7 @@ We may be interested not only in the actual sequence which contains this string,
 in the name (or identifier) of that sequence. Think back to the FASTQ format we discussed previously - if you need a reminder, you can click to reveal one below.
 
 >
+> > ## Hint
 > > ![](../fig/fasta_file_format_l2.png){:width="600px"}
 > {: .solution}
 {: .challenge}
