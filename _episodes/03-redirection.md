@@ -16,7 +16,6 @@ keypoints:
 - "`command > file` redirects a command's output to a file."
 - "`command >> file` redirects a command's output to a file without overwriting the existing contents of the file."
 - "`command_1 | command_2` redirects the output of the first command as input to the second command."
-- "`for` loops are used for iteration."
 ---
 
 ## Searching files
