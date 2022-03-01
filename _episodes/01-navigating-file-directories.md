@@ -129,7 +129,7 @@ prints the contents of the folder called `home`
 > Explore the options for `ls` in the man page to find out how to see hidden directories. 
 > List the contents of the directory and identify the name of the text file in that directory.
 >
-> Share your answer on the Padlet!
+> Share your answer on the forum!
 >
 > Hint: hidden files and folders in Unix start with `.`, for example `.my_hidden_directory`
 >

@@ -192,7 +192,7 @@ This will print out all of the contents of the `SRR098026.fastq` to the screen.
 > use one short command to print the contents of all of the files in
 > the `~/shell_data/untrimmed_fastq` directory.
 >
-> Share your answers on the Padlet.
+> Share your answers on the forum.
 >
 > > ## Solution
 > > 1. The last line of the file is `C:CCC::CCCCCCCC<8?6A:C28C<608'&&&,'$`.
@@ -245,7 +245,7 @@ return, you will search backwards and move up the file to previous examples of t
 >
 > What are the next three nucleotides (characters) after the first instance of the sequence quoted above?
 >
-> Share your answer on the Padlet to see if it matches everybody else!
+> Share your answer on the forum to see if it matches everybody else!
 >
 > > ## Solution
 > > `CAC`
