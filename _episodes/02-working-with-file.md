@@ -80,28 +80,30 @@ Note that the output displays __full__ paths to files, since
 each result starts with `/`.
 
 > ## Exercise
-> Do each of the following tasks from your current directory using a single
-> `ls` command for each:
+> What command would you use for each of the following tasks? Start from your current directory using a
+> single `ls` command for each:
 >
 > 1.  List all of the files in `/usr/bin` that start with the letter 'c'.
 > 2.  List all of the files in `/usr/bin` that contain the letter 'a'.
 > 3.  List all of the files in `/usr/bin` that end with the letter 'o'.
-> 4.  What would the output look like if a wildcard could *not* be matched? Try listing all files that start with 'missing'
+> 4.  List all of the files in `/usr/bin` that contain the letter 'a' or the letter 'c'.
 >
-> Bonus: List all of the files in `/usr/bin` that contain the letter 'a' or the
-> letter 'c'.
+> Bonus: What would the output look like if a wildcard could *not* be matched? Try listing all files that start 
+> with 'missing'.
 >
-> Hint: The bonus question requires a Unix wildcard that we haven't talked about
+> Hint: Question 4 requires a Unix wildcard that we haven't talked about
 > yet. Try searching the internet for information about Unix wildcards to find
 > what you need to solve the bonus problem.
+> 
+> Share your answers in the forum.
 >
 > > ## Solution
 > > 1. `ls /usr/bin/c*`
 > > 2. `ls /usr/bin/*a*`
 > > 3. `ls /usr/bin/*o`  
-> > 4. `ls: cannot access 'missing*': No such file or directory`
-> > Bonus: `ls /usr/bin/*[ac]*`
-> >
+> > 4. `ls /usr/bin/*[ac]*`
+> > 
+> > Bonus: `ls: cannot access 'missing*': No such file or directory`
 > {: .solution}
 {: .challenge}
 
