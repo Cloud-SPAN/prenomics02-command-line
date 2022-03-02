@@ -315,23 +315,20 @@ navigate amongst them.
 
 > ## Relative path resolution
 >
-> Using the filesystem diagram below, if `pwd` displays `/Users/thing`,
-> what will `ls ../backup` display?
+> Using the filesystem diagram below, if `pwd` displays `~/csuser/shell_data/sra_metadata`,
+> what will `ls ../untrimmed_fastq` display?
+> 
+> Can you explain why? Share your answers in the forum.
 >
-> 1.  `../backup: No such file or directory`
-> 2.  `2012-12-01 2013-01-08 2013-01-27`
-> 3.  `2012-12-01/ 2013-01-08/ 2013-01-27/`
-> 4.  `original pnas_final pnas_sub`
->
-> ![File System for Challenge Questions](../fig/filesystem-challenge.svg)
+> ![blank instance file tree](../fig/blank_instance_file_tree.png){:width="300px"}
 >
 > > ## Solution
-> >  1. No: there *is* a directory `backup` in `/Users`.
-> >  2. No: this is the content of `Users/thing/backup`,
-> >   but with `..` we asked for one level further up.
-> >  3. No: see previous explanation.
-> >    Also, we did not specify `-F` to display `/` at the end of the directory names.
-> >  4. Yes: `../backup` refers to `/Users/backup`.
+> > ~~~
+> > SRR098026.fastq SRR097977.fastq
+> > ~~~
+> > {: .output}
+> > 
+> > The command `ls ..` moves us up a folder level before we specify the contents of `untrimmed_fastq`.
 > {: .solution}
 {: .challenge}
 
