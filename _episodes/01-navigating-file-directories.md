@@ -315,7 +315,7 @@ navigate amongst them.
 
 > ## Relative path resolution
 >
-> Using the filesystem diagram below, if `pwd` displays `~/csuser/shell_data/sra_metadata`,
+> Using the file system diagram below, if `pwd` displays `~/csuser/shell_data/sra_metadata`,
 > what will `ls ../untrimmed_fastq` display?
 > 
 > Can you explain why? Share your answers in the forum.
