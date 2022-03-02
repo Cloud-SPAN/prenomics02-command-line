@@ -235,9 +235,9 @@ return, you will search backwards and move up the file to previous examples of t
 
 > ## Exercise
 >
-> What are the next three nucleotides (characters) after the first instance of the sequence quoted above?
+> What are the next three nucleotides (characters) after the first instance of the sequence quoted above (`TTTTT`)?
 >
-> Share your answer on the forum to see if it matches everybody else!
+> Share your answer on the forum to see if it matches everyone else's!
 >
 > > ## Solution
 > > `CAC`
