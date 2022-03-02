@@ -153,16 +153,6 @@ You will be glad you learned this when you need to re-run very complicated comma
 For more information on advanced usage of `history`, read section 9.3 of
 [Bash manual](https://www.gnu.org/software/bash/manual/html_node/index.html).
 
-> ## Exercise
-> Find the line number in your history for the command that listed all the .sh
-> files in `/usr/bin`. Rerun that command.
->
-> > ## Solution
-> > First type `history`. Then use `!` followed by the line number to rerun that command.
-> {: .solution}
-{: .challenge}
-
-
 ## Examining Files
 
 We now know how to switch directories, run programs, and look at the
