@@ -421,15 +421,15 @@ This will delete not only the directory, but all files within the directory.
 > 2. Create a backup of each of your FASTQ files using `cp`. (Note: You'll need to do this individually for each of the two FASTQ files. We haven't
 > learned yet how to do this
 > with a wildcard.)  
-> 3. Use a wildcard to move all of your backup files to a new backup directory.   
+> 3. Use a wildcard to move all of your backup files to a new backup directory.
 >
 > > ## Solution
 > >
 > > 1. `rm -r backup`  
 > > 2. `cp SRR098026.fastq SRR098026-backup.fastq` and `cp SRR097977.fastq SRR097977-backup.fastq`  
 > > 3. `mkdir backup` and `mv *-backup.fastq backup`
+> > 
 > > It's always a good idea to check your work with `ls -l backup`. You should see something like:
-> >
 > > ~~~
 > > -rw-r--r-- 1 csuser csuser 47552 Nov 15 23:06 SRR097977-backup.fastq
 > > -rw-r--r-- 1 csuser csuser 43332 Nov 15 23:06 SRR098026-backup.fastq
