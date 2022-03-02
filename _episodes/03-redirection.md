@@ -103,11 +103,13 @@ CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 >
 > 1. Search for the sequence `GNATNACCACTTCC` in the `SRR098026.fastq` file.
 > Have your search return all matching lines and the name (or identifier) for each sequence
-> that contains a match.
+> that contains a match. What is the output?
 >
 > 2. Search for the sequence `AAGTT` in both FASTQ files.
 > Have your search return all matching lines and the name (or identifier) for each sequence
-> that contains a match.
+> that contains a match. How many matching sequences do you get?
+>
+> Share your answers on the forum.
 >
 > > ## Solution  
 > > 1. `grep -B1 GNATNACCACTTCC SRR098026.fastq`
