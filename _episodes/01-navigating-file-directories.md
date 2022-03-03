@@ -38,11 +38,11 @@ If you logged out of your AWS instance at the end of session 1, "Project managem
 3. **Login into your instance**
 
     ~~~
-    $ ssh -i login-key-instanceNN.pem  csuser@instanceNN-gc.cloud-span.aws.york.ac.uk
+    $ ssh -i login-key-instanceNNN.pem  csuser@instanceNNN.cloud-span.aws.york.ac.uk
     ~~~
     {: .bash}
 
-  *Be sure to replace NN with your own number, twice.*
+  *Be sure to replace NNN with your own number, twice.*
 
 
 ## Moving around the file system
