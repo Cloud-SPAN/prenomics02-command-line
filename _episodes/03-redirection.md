@@ -56,7 +56,7 @@ Suppose we want to see how many reads in our file have really bad segments conta
 > type of searching to get a feel for the quality of your sequencing results, however, in your
 > research you will most likely use a bioinformatics tool that has a built-in program for
 > filtering out low-quality reads. You'll learn how to use one such tool in
-> [a later lesson](https://cloud-span.github.io/genomics04-data-preparation-organisation/04-quality-control/index.html).
+> [a Genomics lesson](https://cloud-span.github.io/03genomics/01-quality-control/index.html).
 >
 {: .callout}
 
