@@ -316,7 +316,7 @@ A!@B!BBB@ABAB#########!!!!!!!######
 ~~~
 {: .output}
 
-You will learn more about how to interpret these outputs on [day three](https://cloud-span.github.io/genomics04-data-preparation-organisation/04-quality-control/index.html) of the [Cloud-SPAN Genomics course](https://cloud-span.github.io/genomics01-intro/).
+You will learn more about how to interpret these outputs on [day three](https://cloud-span.github.io/03genomics/) of the [Cloud-SPAN Genomics module](https://cloud-span.github.io/00genomics/).
 
 ## Creating, moving, copying, and removing
 
