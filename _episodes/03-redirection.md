@@ -160,7 +160,7 @@ way.
 We can do this with something called "redirection". The idea is that
 we are taking what would ordinarily be printed to the terminal screen and redirecting it to another location.
 In our case, we want to print this information to a file so that we can look at it later and
-use other commands to analysee this data.
+use other commands to analyse this data.
 
 The command for redirecting output to a file is `>`.
 
