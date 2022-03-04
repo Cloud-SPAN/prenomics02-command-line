@@ -19,12 +19,13 @@ customization than the corresponding GUI tools (if in fact a GUI tool even exist
 
 > ## Getting Started
 >
-> This lesson assumes no prior experience with the tools covered in the course. 
+> This lesson assumes no prior experience with the tools covered in the module. 
 > However, learners are expected to have some familiarity with biological concepts,
-> including the 
-> concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively. 
+> including the concept of genomic variation within a population. 
+> 
+> Participants should bring their laptops and plan to participate actively. 
 >
-> This lesson is part of a course that uses data hosted on an Amazon Machine Instance (AMI). Course participants will be given 
-> information on how
-> to log-in to the AMI during the course. Information on preparing for the course is provided on the [Cloud-SPAN Genomics Course setup page](https://cloud-span.github.io/genomics01-intro/setup.html).
+> This lesson uses an Amazon Machine Instance (AMI). If you are attending a tutor-led workshop your AMI will be created for you and will be sent the log in information you will need for this lesson. If you are self-studying Prenomics, you will need to set up your own instance using our [Create Your Own AWS Instance module](https://cloud-span.github.io/create-aws-instance-0-overview/).
+
+Before starting this lesson, you should go through the [Files and Directories](https://cloud-span.github.io/prenomics01-file-directories/) lesson.
 {: .prereq}
