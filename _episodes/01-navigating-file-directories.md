@@ -19,21 +19,31 @@ keypoints:
 
 ## Getting started
 
-If you logged out of your AWS instance at the end of session 1, "Project management for cloud genomics", the first thing you need to do is log in.
+The first thing we need to do is log in to our cloud instance.
 
-1. **Open terminal** (or Git Bash terminal if you are a Windows user). 
+1. **Open the *cloudspan* folder you created for the course**
 
-    Search for 'Terminal' or 'Git Bash' or look for the terminal icon and click (or double click) on it. When the shell opens you will be in your home directory.
+    Open your file manager and navigate to the `cloudspan` folder (hint: we recommended you make the folder in your *Desktop* directory - but you might have made it somewhere else). If you cannot find the folder, you can remind yourself where it is stored by looking at the absolute path you wrote down in the previous episode.
 
+    The folder should contain the login key file we downloaded in the previous episode and nothing else.
 
-2. **Move to the `cloudspan` folder**
+2. **Right-click and open your machine's command line interface**
 
-    Move to the folder you created by typing the following and then pressing <kbd>Enter</kbd> at the command prompt:
+    Now we can open the command line.
 
-    ~~~
-    $ cd Desktop/cloudspan	
-    ~~~
-    {: .bash}
+    For Windows users:
+
+    - Right click anywhere inside the blank space of the file manager, then select **Git Bash Here**.
+  
+    For Mac users:
+
+    You have two options. 
+    
+    EITHER
+    - Open **Terminal** in one window and type `cd` followed by a space. Do not press enter! Now open **Finder** in another window. Drag and drop the `cloudspan` folder from the Finder to the Terminal. You should see the file path leading to your `cloudspan` folder appear. Now press enter to navigate to the folder.
+
+    OR
+    - Open **Terminal** and type `cd` followed by the absolute path that leads to your `cloudspan` folder. Press enter. 
     
 3. **Login into your instance**
 
@@ -43,7 +53,6 @@ If you logged out of your AWS instance at the end of session 1, "Project managem
     {: .bash}
 
   *Be sure to replace NNN with your own number, twice.*
-
 
 ## Moving around the file system
 
