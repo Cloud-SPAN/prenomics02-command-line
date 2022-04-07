@@ -6,14 +6,11 @@ questions:
 - "How can I perform operations on files outside of my working directory?"
 - "What are some navigational shortcuts I can use to make my work more efficient?"
 objectives:
-- "Use a single command to navigate multiple steps in your directory structure, including moving backwards (one level up)."
 - "Perform operations on files in directories outside your working directory."
-- "Work with hidden directories and hidden files."
 - "Interconvert between absolute and relative paths."
 - "Employ navigational shortcuts to move around your file system."
 keypoints:
 - "The `/`, `~`, and `..` characters represent important navigational shortcuts."
-- "Hidden files and directories start with `.` and can be viewed using `ls -a`."
 - "Relative paths specify a location starting from the current location, while absolute paths specify a location from the root of the file system."
 ---
 
@@ -54,146 +51,16 @@ The first thing we need to do is log in to our cloud instance.
 
   *Be sure to replace NNN with your own number, twice.*
 
-## Moving around the file system
+## Reminder: our file structure
 
-We've learned how to use `pwd` to find our current location within our file system.
-We've also learned how to use `cd` to change locations and `ls` to list the contents
-of a directory. Now we're going to learn some additional commands for moving around
-within our file system.
-
-Here's a reminder of what our file structure looks like as a hierarchy tree:
-![A file hierarchy tree](../fig/blank_instance_file_tree.png){:width="400px"}
-
-Use the commands we've learned so far to navigate to the `shell_data/untrimmed_fastq` directory:
-
-~~~
-$ cd
-$ cd shell_data
-$ cd untrimmed_fastq
-~~~
-{: .bash}
-
-What if we want to move back up and out of this directory and to our top level
-directory? Can we type `cd shell_data`? Try it and see what happens.
-
-~~~
-$ cd shell_data
-~~~
-{: .bash}
-
-~~~
--bash: cd: shell_data: No such file or directory
-~~~
-{: .output}
-
-Your computer looked for a directory or file called `shell_data` within the
-directory you were already in. It didn't know you wanted to look at a directory level
-above the one you were located in.
-
-We have a special command to tell the computer to move us back or up one directory level.
-
-~~~
-$ cd ..
-~~~
-{: .bash}
-
-
-Now we can use `pwd` to make sure that we are in the directory we intended to navigate
-to, and `ls` to check that the contents of the directory are correct.
-
-~~~
-$ pwd
-~~~
-{: .bash}
-
-~~~
-/home/csuser/shell_data
-~~~
-{: .output}
-
-~~~
-$ ls
-~~~
-{: .bash}
-
-~~~
-sra_metadata  untrimmed_fastq
-~~~
-{: .output}
-
-From this output, we can see that `..` did indeed take us back one level in our file system.
-
-You can chain these together like so:
-
-~~~
-$ ls ../../
-~~~
-{: .bash}
-
-prints the contents of the folder called `home`
-
-> ## Finding hidden directories
->
-> First navigate to the `shell_data` directory. There is a hidden directory within this directory.
-> Explore the options for `ls` in the man page to find out how to see hidden directories. 
-> List the contents of the directory and identify the name of the text file in that directory.
->
-> Share your answer on the forum!
->
-> Hint: hidden files and folders in Unix start with `.`, for example `.my_hidden_directory`
->
-> > ## Solution
-> >
-> > First use the `man` command to look at the options for `ls`.
-> > ~~~
-> > $ man ls
-> > ~~~
-> > {: .bash}
-> >
-> > The `-a` option is short for `all` and says that it causes `ls` to "not ignore
-> > entries starting with ." This is the option we want.
-> >
-> > ~~~
-> > $ ls -a
-> > ~~~
-> > {: .bash}
-> >
-> > ~~~
-> > .  ..  .hidden	sra_metadata  untrimmed_fastq
-> > ~~~
-> > {: .output}
-> >
-> > The name of the hidden directory is `.hidden`. We can navigate to that directory
-> > using `cd`.
-> >
-> > ~~~
-> > $ cd .hidden
-> > ~~~
-> > {: .bash}
-> >
-> > And then list the contents of the directory using `ls`.
-> >
-> > ~~~
-> > $ ls
-> > ~~~
-> > {: .bash}
-> >
-> > ~~~
-> > youfoundit.txt
-> > ~~~
-> > {: .output}
-> >
-> > The name of the text file is `youfoundit.txt`.
-> {: .solution}
-{: .challenge}
-
-In most commands the flags can be combined together in no particular order to obtain the desired results/output.
-~~~
-$ ls -Fa
-$ ls -laF
-~~~
+Before we start, here's a reminder of what our file structure looks like as a hierarchy tree:
+![A file hierarchy tree](../fig/blank_instance_file_tree.png){:width="400px"}. Keep this in mind as we continue to navigate the file system, and don't hesitate to refer back to it if needed.
 
 ## Examining the contents of other directories
+
+In the previous session we learned how to use `pwd` to find our current location within our file system.
+We also learned how to use `cd` to change locations and `ls` to list the contents
+of a directory.
 
 By default, the `ls` commands lists the contents of the working
 directory (i.e. the directory you are in). You can always find the
