@@ -18,11 +18,11 @@ authors:
 - family-names: "Rand"
   given-names: "Emma"
   orcid: "https://orcid.org/0000-0002-1358-8275"
-title: "Cloud-SPAN Prenomics Course"
+title: "Cloud-SPAN Prenomics Course: Using the command line"
 version: 0.1.0
-doi: 10.5281/zenodo.6354056
+doi: 10.5281/10.5281/zenodo.6354062
 date-released: 2022-03-01
-url: "https://cloud-span.github.io/prenomics00-intro/"
+url: "https://cloud-span.github.io/prenomics02-command-line/"
 references:
   - authors:
     - family-names: "Becker"
@@ -31,15 +31,15 @@ references:
       given-names: "Tracy"
     - family-names: "Michonneau"
       given-names: "Francois"
-    - family-names: "Sane"
-      given-names: "Maneesha"
-    - family-names: "Reiter"
-      given-names: "Taylor"
-    - family-names: "Williams"
-      given-names: "Jason"
+    - family-names: "Schurch"
+      given-names: "Anita"
+    - family-names: "McKay"
+      given-names: "Sheldon John"
+    - family-names: "Mizzi"
+      given-names: "Jessica Elizabeth"
     date-released: "2019-06-01"
-    doi: http://doi.org/10.5281/zenodo.3260309
-    repository-code: "https://github.com/datacarpentry/genomics-workshop"
-    title: "Data Carpentry: Genomics Workshop Overview"
+    doi: 10.5281/zenodo.3260560
+    repository-code: "https://github.com/datacarpentry/shell-genomics/"
+    title: "Data Carpentry:  Introduction to the shell for genomics data"
     type: software
     version: v2019.06.1
