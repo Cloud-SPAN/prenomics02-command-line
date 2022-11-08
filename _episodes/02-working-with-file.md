@@ -422,14 +422,17 @@ This will delete not only the directory, but all files within the directory.
 > learned yet how to do this
 > with a wildcard.)  
 > 3. Use a wildcard to move all of your backup files to a new backup directory.
+> 4. It doesn't make sense to keep our backup directory inside the directory it is backing up. What if we accidentally delete the `untrimmed_fastq` directory?
+> To fix this, move your new backup directory out of `untrimmed_fastq` and into the parent folder, `shell_data`.
 >
 > > ## Solution
 > >
 > > 1. `rm -r backup`  
 > > 2. `cp SRR098026.fastq SRR098026-backup.fastq` and `cp SRR097977.fastq SRR097977-backup.fastq`  
 > > 3. `mkdir backup` and `mv *-backup.fastq backup`
+> > 4. `mv backup ..` or `mv backup ~/shell_data/` (note that you do not need to use the -r flag to move directories like you do when deleting them)
 > > 
-> > It's always a good idea to check your work with `ls -l backup`. You should see something like:
+> > It's always a good idea to check your work. Move to the `shell_data` folder with `cd ..` and then list the contents of backup with `ls -l backup`. You should see something like:
 > > ~~~
 > > -rw-r--r-- 1 csuser csuser 47552 Nov 15 23:06 SRR097977-backup.fastq
 > > -rw-r--r-- 1 csuser csuser 43332 Nov 15 23:06 SRR098026-backup.fastq
